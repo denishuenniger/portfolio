@@ -2,7 +2,7 @@
 
 IP-address: 104.248.29.24:8000
 
-Domain: [denishuenniger.de](http://104.248.29.24:8000/)
+Domain: [denishuenniger.de](http://104.248.29.24:80/)
 
 # Tutorial
 
