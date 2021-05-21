@@ -513,8 +513,33 @@
           <h2>Contact</h2>
         </div>
 
-        <div class="mx-auto mt-1" style="width: 60%">
+        <div class="row mt-1">
 
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Dresden, Germany</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>denishuenniger@pm.me</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-skype"></i>
+                <h4>Skype:</h4>
+                <p>live:denis07_3</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
 
             <form action="{% static 'forms/contact.php' %}" method="post" role="form" class="php-email-form">
               <div class="row">
@@ -539,6 +564,7 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
 
+          </div>
 
         </div>
 
@@ -549,7 +575,7 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="mx-auto">
+    <div class="container">
       <h3>Denis Huenniger</h3>
       <p>Feel free to contact me!</p>
       <div class="social-links">
